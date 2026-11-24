@@ -1,0 +1,15 @@
+:root {
+  --pin-preloaded: #0562cc;
+  --ink: #1b2330;
+  --paper: #f7f8fa;
+  --line: #d9dee7;
+  --gold: #e0a526;
+  font-family: system-ui, -apple-system, 'Segoe UI', sans-serif;
+  color: var(--ink);
+  background: var(--paper);
+  --blue: #0b3d91;;
+}
+* { box-sizing: border-box; }
+body { margin: 0; }
+button { font: inherit; cursor: pointer; }
+:focus-visible { outline: 3px solid var(--gold); outline-offset: 2px; }
